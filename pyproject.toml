@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "straw-cli"
+version = "0.1.0"
+description = ""
+authors = ["user <user@example.com>"]
+readme = "README.md"
+packages = [{include = "straw_cli"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+straw = {git = "https://github.com/oelin/straw"}
+etaprogress = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+straw-cli = 'straw_cli:main'
