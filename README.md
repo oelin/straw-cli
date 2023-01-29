@@ -2,7 +2,7 @@
 
 A simple CLI for [Straw](https://github.com/oelin/straw) 🐍.
 
-```sh
+```
 usage: straw-cli [-h] [-d DESTINATION] [-p PREFIX] source
 ```
 
